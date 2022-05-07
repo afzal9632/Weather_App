@@ -4,8 +4,8 @@ function myfun(){
     event.preventDefault();
 var name=document.querySelector("#name").value;
 console.log(name)
-const url=`https://api.openweathermap.org/data/2.5/weather?q=${name}&appid=00b3ec0088842608a7220109e95aa9fd`;
-//const url=`https://api.openweathermap.org/data/2.5/weather?q=${name}&appid=5881c4a70f1f474bc5289105d70aa1b5`;
+const url=`https://api.openweathermap.org/data/2.5/weather?q=${name}&appid=ca431aff7a4cd819da4783af4b446743`;
+    
 fetch(url)
 .then(function (res){
     return res.json();
